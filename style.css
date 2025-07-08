@@ -150,6 +150,11 @@ nav ul {
   max-width: 1000px;
   margin: auto;
 }
+.section:not(:last-of-type) {
+  border-bottom: 2px solid red;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+} 
 
 /* FOOTER */
 footer {
