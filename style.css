@@ -210,16 +210,33 @@ form a {
 }
 
 .privacy-box {
-  display: inline-flex;
+    display: flex;
   align-items: center;
-  gap: 10px;
-  background-color: #f1f1f1;
-  padding: 10px 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  gap: 8px;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  border-radius: 0;
   font-size: 14px;
   margin-top: 10px;
-  text-align: left;
+  white-space: normal;
+}
+
+.privacy-box input[type="checkbox"] {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  accent-color: #4CAF50; /* verde opzionale, puoi cambiarlo */
+}
+
+.privacy-box span {
+  display: inline;
+  white-space: nowrap;
+}
+
+.privacy-box a {
+  color: #4CAF50;
+  text-decoration: underline;
 }
 
 /* GALLERY */
