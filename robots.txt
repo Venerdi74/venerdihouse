@@ -1,0 +1,25 @@
+User-agent: *
+
+# Consenti tutte le pagine HTML
+Allow: /index.html
+Allow: /de.html
+Allow: /en.html
+Allow: /es.html
+Allow: /fr.html
+Allow: /sk.html
+Allow: /privacy.html
+Allow: /privacy_de.html
+Allow: /privacy_en.html
+Allow: /privacy_es.html
+Allow: /privacy_fr.html
+Allow: /privacy_sk.html
+
+# Consenti tutte le immagini
+Allow: /images/
+
+# Consenti CSS
+Allow: /style.css
+
+# Non blocco nulla perché non hai aree riservate
+
+Sitemap: https://www.venerdihouse.com/sitemap.xml
