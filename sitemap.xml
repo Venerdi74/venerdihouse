@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://venerdihouse.com/</loc>
-  <lastmod>2025-07-06T06:40:53+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://venerdihouse.com/privacy</loc>
-  <lastmod>2025-07-06T06:40:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
-</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.venerdihouse.com/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/de.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/en.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/es.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/fr.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/sk.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/privacy_de.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/privacy_en.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/privacy_es.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/privacy_fr.html</loc>
+  </url>
+  <url>
+    <loc>https://www.venerdihouse.com/privacy_sk.html</loc>
+  </url>
+</urlset> 
