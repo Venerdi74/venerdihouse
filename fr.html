@@ -273,12 +273,7 @@
       toggleMenu();
     }
   });
-}); 
-      var fileName = window.location.pathname.split("/").pop();
-      var canonicalHref = "https://www.tuosito.it/" + fileName;
-      if (fileName !== "") {
-        document.getElementById("canonical-link").setAttribute("href", canonicalHref);
-      }
+});
 
       if (localStorage.getItem('cookiesAccepted')) {
         loadMap();
