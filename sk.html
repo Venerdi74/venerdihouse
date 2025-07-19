@@ -304,6 +304,17 @@
         document.getElementById('cookie-banner').style.display = 'none';
       });
     });
+
+    document.addEventListener('click', function(event) {
+  const nav = document.querySelector('nav ul');
+  const toggle = document.querySelector('.menu-toggle');
+
+  const isClickInsideMenu = nav.contains(event.target) || toggle.contains(event.target);
+
+  if (!isClickInsideMenu && nav.classList.contains('active')) {
+    toggleMenu();
+  }
+}); 
   </script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
