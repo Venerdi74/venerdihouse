@@ -130,6 +130,17 @@
       });
     });
   });
+
+    document.addEventListener('click', function(event) {
+  const nav = document.querySelector('nav ul');
+  const toggle = document.querySelector('.menu-toggle');
+
+  const isClickInsideMenu = nav.contains(event.target) || toggle.contains(event.target);
+
+  if (!isClickInsideMenu && nav.classList.contains('active')) {
+    toggleMenu();
+  }
+}); 
 </script> 
 </body>
 </html>
