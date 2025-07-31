@@ -1,18 +1,26 @@
 User-agent: *
 
-# Consenti tutte le pagine HTML
+# Consenti tutte le pagine HTML principali
 Allow: /index.html
 Allow: /de.html
 Allow: /en.html
 Allow: /es.html
 Allow: /fr.html
 Allow: /sk.html
+Allow: /hu.html
+Allow: /ro.html
+Allow: /pl.html
+
+# Consenti tutte le pagine privacy
 Allow: /privacy.html
 Allow: /privacy_de.html
 Allow: /privacy_en.html
 Allow: /privacy_es.html
 Allow: /privacy_fr.html
 Allow: /privacy_sk.html
+Allow: /privacy_hu.html
+Allow: /privacy_ro.html
+Allow: /privacy_pl.html
 
 # Consenti tutte le immagini
 Allow: /images/
@@ -20,6 +28,14 @@ Allow: /images/
 # Consenti CSS
 Allow: /style.css
 
-# Non blocco nulla perché non hai aree riservate
-
+# Escludi le pagine di ringraziamento
+Disallow: /thank-you
+Disallow: /de-thank-you
+Disallow: /en-thank-you
+Disallow: /es-thank-you
+Disallow: /fr-thank-you
+Disallow: /sk-thank-you
+Disallow: /hu-thank-you
+Disallow: /ro-thank-you
+Disallow: /pl-thank-you 
 Sitemap: https://venerdihouse.com/sitemap.xml
